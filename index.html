@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phero Tube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        .tick{
+            width: 20px;
+        }
+    </style>
+</head>
+<body class="max-w-6xl ">
+    <nav class="w-full mb-9" >
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <img src="Logo.png" alt="">
+            </div>
+            <div class="navbar-center">
+              <button id="sort" class="btn btn-ghost normal-case text-xl" onclick="handleLoadVideos('1000', true);">Sort By View</button>
+            </div>
+            <div class="navbar-end">
+                <a href="./blog.html" class="btn btn-error text-[white]">Blog</a>
+             
+            </div>
+          </div>
+    </nav>
+    <hr>
+    <div class="tab-container mt-5 w-full mb-5">
+        <div class="tabs tabs  m-auto text-center flex justify-center " id="tab-container">
+            <!-- <button class="btn">Error</button> -->
+        </div>
+       </div>
+       <div id="card-container" class="grid grid-cols-4 gap-4">
+        <!-- <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              
+            </div>
+          </div> -->
+       </div>
+   <script src="index.js"></script> 
+</body>
+</html>
